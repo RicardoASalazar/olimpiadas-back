@@ -71,7 +71,7 @@ const router = Router();
  *                   example: validation error
  * /api/v1/operaciones/energia/gr:
  *   post:
- *     summary: Calcular la energia mediante la primera formula de enstein
+ *     summary: Calcular la energia mediante la formula de enstein ingresando la masa con gramos
  *     tags: [Operaciones]
  *     requestBody:
  *       description: Campos requeridos para calcular
@@ -103,7 +103,7 @@ const router = Router();
  *                   example: validation error
  * /api/v1/operaciones/energia/kg:
  *   post:
- *     summary: Calcular el volumen de Icosaedro
+ *     summary: Calcular la energia mediante la formula de enstein ingresando la masa con kilogramos
  *     tags: [Operaciones]
  *     requestBody:
  *       description: Campos requeridos para calcular
